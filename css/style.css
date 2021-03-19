@@ -1,0 +1,60 @@
+
+nav#main-navbar{
+    display: block;
+    background-color: blue;
+    width: 100%;
+    float:left;
+    right: 50%;
+}
+div#navbar-container{
+    display:block;
+    position: relative;
+    left: 50%;
+}
+div#navbar-container ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+#navbar-container #onpage a{
+    text-decoration: underline overline;
+}
+div#navbar-container ul li a{
+    text-decoration: none;
+    color:white;
+    float:left;
+    padding: 10px 20px;
+}
+
+div#navbar-container ul li a:hover{
+    background-color: #000;
+}
+div#navbar-container ul li#onpage{
+    text-decoration: underline overline;
+}
+
+
+
+#sidebar{
+    background-color: red;
+    position: fixed;
+    right:0%;
+    width: 20%;
+    height:100%;
+    text-align: center;
+}
+#sidebar-container ul{
+    text-decoration: none;
+    padding: 0;
+    list-style-type: none;
+}
+#sidebar-container ul li a{
+   display:block;
+   color: #fff;
+   padding: 15px 0;
+   text-decoration: none;
+}
+#sidebar-container ul li a:hover{
+    background-color: #000;
+}
