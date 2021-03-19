@@ -27,10 +27,10 @@ div#navbar-container ul li a{
     padding: 10px 20px;
 }
 
-div#navbar-container ul li a:hover{
+#navbar-container ul li a:hover{
     background-color: #000;
 }
-div#navbar-container ul li#onpage{
+#onpage{
     text-decoration: underline overline;
 }
 
